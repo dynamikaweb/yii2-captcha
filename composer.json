@@ -1,0 +1,39 @@
+{
+    "name": "dynamikaweb/yii2-template",
+    "description": "",
+    "type": "yii2-extension",
+    "keywords": ["dynamika", "yii2"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rodrigo Dornelles",
+            "email": "rodrigo@dynamika.com.br",
+            "role": "Developer"
+        },
+        {
+            "name": "Robson Soares",
+            "email": "robson@dynamika.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
+        "source": "http://github.com/dynamikaweb/yii2-template"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dynamikaweb\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
