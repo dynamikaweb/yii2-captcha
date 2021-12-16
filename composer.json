@@ -9,7 +9,7 @@
             "name": "Rodrigo Dornelles",
             "email": "rodrigo@dynamika.com.br",
             "role": "Developer"
-        },
+        }
     ],
     "support": {
         "issues": "http://github.com/dynamikaweb/yii2-captcha/issues",
