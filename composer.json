@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
-    "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "name": "dynamikaweb/yii2-captcha",
+    "description": "Component for google reCaptcha or hCaptcha.",
+    "type": "yii2-captcha",
+    "keywords": ["dynamika", "yii2", "captcha", "hcaptcha", "recaptcha"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -10,15 +10,10 @@
             "email": "rodrigo@dynamika.com.br",
             "role": "Developer"
         },
-        {
-            "name": "Robson Soares",
-            "email": "robson@dynamika.com.br",
-            "role": "Developer"
-        }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-captcha/issues",
+        "source": "http://github.com/dynamikaweb/yii2-captcha"
     },
     "minimum-stability": "dev",
     "require": {
