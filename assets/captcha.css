@@ -1,0 +1,66 @@
+.captcha-size {
+    width: 304px;
+}
+
+.captcha-left {
+    margin: 0 0;
+}
+
+.captcha-center {
+    margin: 0 auto;
+}
+
+.captcha-right {
+    margin: 0 calc(100% - 304px);
+}
+
+@media print {
+    .captcha-no-print {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .captcha-size {
+        width: 273.6px;
+    }
+
+    .captcha-right {
+        margin: 0 calc(100% - 273.6px);
+    }
+
+    .captcha-size {
+        transform: scale(0.90);
+        transform-origin: 0 136.8px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .captcha-size {
+        width: 243.2px;
+    }
+
+    .captcha-right {
+        margin: 0 calc(100% - 243.2px);
+    }
+
+    .captcha-size {
+        transform: scale(0.80);
+        transform-origin: 0 121.6px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .captcha-size {
+        width: 212.7px;
+    }
+
+    .captcha-right {
+        margin: 0 calc(100% - 212.7px);
+    }
+
+    .captcha-size {
+        transform: scale(0.64);
+        transform-origin: 0 106.4px;
+    }
+}
