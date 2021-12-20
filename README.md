@@ -15,7 +15,7 @@ Features
  * Not printable by default
  * Development keys by default
  * Better responsive Improvements
- * Support for google [reCaptcha](https://www.hcaptcha.com/) and also [hCaptcha](https://developers.google.com/recaptcha)
+ * Support for google [reCaptcha](https://developers.google.com/recaptcha) and also [hCaptcha](https://www.hcaptcha.com)
  * Support for multiple validators, widgets and keys at the same time
 
 Installation
