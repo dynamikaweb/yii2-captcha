@@ -63,6 +63,10 @@ class Captcha extends \yii\widgets\InputWidget
                     continue;
                 }
 
+                if (!in_array($this->attribute, $validator->attributes)) {
+                    continue;
+                }
+
                 $this->type = empty($this->type)? $validator->type: $this->type;
                 $this->siteKey = empty($this->siteKey)? $validator->siteKey: $this->siteKey;
             }
