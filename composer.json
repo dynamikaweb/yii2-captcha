@@ -15,14 +15,18 @@
         "issues": "http://github.com/dynamikaweb/yii2-captcha/issues",
         "source": "http://github.com/dynamikaweb/yii2-captcha"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0",
+        "curl/curl": "^2.0",
         "yiisoft/yii2": "*"
+    },
+    "replace": {
+        "himiklab/yii2-recaptcha-widget": "*"
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\captcha\\": "src"
         }
     },
     "repositories": [
